@@ -11,8 +11,19 @@ O padrão **Decorator** permite estender o comportamento de objetos de maneira m
 - TypeScript
 
 ## 📂 Estrutura do Projeto
-
-DecoratorExemple/ ├── decorators/ │ ├── BoldDecorator.ts │ ├── ItalicDecorator.ts │ └── UnderlineDecorator.ts ├── interfaces/ │ └── TextFormatter.ts ├── models/ │ └── PlainText.ts ├── main.ts └── tsconfig.json
+```bash
+DecoratorExemple/
+├── decorators/
+│ ├── BoldDecorator.ts
+│ ├── ItalicDecorator.ts
+│ └── UnderlineDecorator.ts
+├── interfaces/
+│ └── TextFormatter.ts
+├── models/
+│ └── PlainText.ts
+├── main.ts
+└── tsconfig.json
+```
 
 - `interfaces/TextFormatter.ts`: Interface base que define o contrato para os formatadores de texto.
 - `models/PlainText.ts`: Implementação concreta da interface, que representa o texto simples.
