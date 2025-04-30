@@ -19,7 +19,7 @@ cd DecoratorExemple
 ```
 2. **Instale o TypeScript (caso ainda não tenha)**
   ```bash
-  npm install -g typescript
+  npm i
   ```
 3. **Compile o código TypeScript**
   ```bash
@@ -27,7 +27,7 @@ cd DecoratorExemple
   ```
 4. **Execute o código**
   ```bash
-  node main.js
+  node index.ts
   ```
 
 Desenvolvido com 💙 por Letícia Rosa
